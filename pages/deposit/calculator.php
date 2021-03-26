@@ -19,12 +19,12 @@
     <input type="text" id="deposit" name="deposit" />
 
     <label for="deposit-time">Срок вклада</label>
-    <select id="deposit-time" name="deposit-time">
-      <option>1 год</option>
-      <option>2 года</option>
-      <option>3 года</option>
-      <option>4 года</option>
-      <option>5 лет</option>
+    <select id="deposit-time" name="deposit-year">
+      <option value="1">1 год</option>
+      <option value="2">2 года</option>
+      <option value="3">3 года</option>
+      <option value="4">4 года</option>
+      <option value="5">5 лет</option>
     </select>
 
     <label>Пополнения вклада</label>
