@@ -53,7 +53,7 @@
   $iYear = 1;
   $monthInYear = 12;
   // summn = summn-1 + (summn-1 + summadd)daysn(percent / daysy)
-  for ($i = 0; $i < 1; $i++) {
+  for ($i = 0; $i < $depositMonth; $i++) {
 
     $date[0] = (int) $date[0] + $i;
     $daysCurrentMonth = (int) date("d", mktime(0, 0, 0, $date[0]+1, 1, $date[2]) - 1);
